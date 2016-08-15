@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/title"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/title_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="30dip"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="@string/title_main"
+        android:textSize="30sp"
+        android:layout_marginTop="20dip"
+        android:layout_centerInParent="true"/>
+
+    <com.facebook.login.widget.LoginButton xmlns:fb="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/auth_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:scaleType="centerInside"
+        fb:com_facebook_login_text="Login with Facebook"
+        fb:com_facebook_logout_text="Logout from Facebook" />
+
+    <Button android:id="@+id/basic_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See your basic information"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:background="@android:color/holo_red_dark"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:layout_below="@id/auth_button"
+        />
+
+</RelativeLayout>

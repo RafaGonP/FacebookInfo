@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FacebookInfo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="facebook_app_id">167271307014236</string>
+    <string name="books_info">Books!</string>
+    <string name="title">Facebook Info</string>
+    <string name="facebook_cancel_title">Facebook Cancelled</string>
+    <string name="facebook_cancel_text">"The connection to Facebook was cancelled</string>
+    <string name="facebook_error_title">Facebook Error</string>
+    <string name="facebook_error_text">An error with the connection to Facebook occurred. Please try again.</string>
+    <string name="name">Name: </string>
+    <string name="email">Email: </string>
+    <string name="text_no_read">You aren\'t much into reading are you?</string>
+    <string name="text_read">"OK, you proclaim that you\'ve read at least 1 book in your life!</string>
+    <string name="text_read_5">"Well, you need to devote more time into reading, it\'s good for your brain!</string>
+    <string name="text_read_10">Not bad, maybe you think you are too busy to read more?</string>
+    <string name="text_read_15">Amazing! You are above average in books read!</string>
+    <string name="text_read_more">Astonishing! You love reading, congratulations!</string>
+    <string name="text_read_list">Here are some books that you\'ve read:</string>
+    <string name="text_read_number">My opinion of the number of books you\'ve read:</string>
+    <string name="title_main">Login / Logout</string>
+    <string name="title_basic">Basic Information</string>
+    <string name="title_books">Books Information</string>
+</resources>
